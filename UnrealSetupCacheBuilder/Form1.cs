@@ -25,6 +25,14 @@ namespace UnrealSetupCacheBuilder
             if (DialogResult.OK == FolderDialog.ShowDialog())
             {
                 TB_Engine.Text = FolderDialog.SelectedPath;
+                if (TB_Cache.Text.Length == 0)
+                {
+                    string TmpPath = Path.Combine(TB_Engine.Text, @".git\ue4-gitdeps");
+                    if (Directory.Exists(TmpPath))
+                    {
+                        TB_Cache.Text = TmpPath;
+                    }
+                }
             }
         }
 
