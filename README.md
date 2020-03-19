@@ -8,8 +8,8 @@ A simple tool to create local cache for Unreal Engine 4 source Setup.bat
    1. Run Setup.bat
    2. Run this tool
    3. Choose Unreal Engine path
-   4. Choose Cache foler (\<Your Engine Path\>/.git/ue4-gitdeps by default)
-   5. Choose Target foler where you want your local cache to be saved in (e.g. D:\UnrealSetupCache)
+   4. Choose Cache folder (\<Your Engine Path\>/.git/ue4-gitdeps by default)
+   5. Choose Target folder where you want your local cache to be saved in (e.g. D:\UnrealSetupCache)
    6. Hit Build and wait for it to finish
    7. Copy local cache folder to a USB drive or a local network storage
 2. On another PC
